@@ -13,12 +13,13 @@ If you have problems you can use the Wiki or raise an issue. You can also checko
 
 ## Contributing
 
+You can freely contribute with us on this project as it is open source, you can do that by joining our community: http://www.gdevit.com/f52/phpvit or by contacting us via email: gdevstorm@gmail.com || 2nerobrainz@gmail.com
 
 
 ## Requirements, Installation, Configuration & Setup:
 
 
-You need a working server with PHP 7.0+ congigured, if you don't have this, [CLICK HERE.](http://www.apachefriends.org/en/xampp.html)) And follow the steps for the necessary installation on your machine.
+You need a working server with PHP 7.0+ configured, if you don't have this, [CLICK HERE.](http://www.apachefriends.org/en/xampp.html)) And follow the steps for the necessary installation on your machine.
 
 
 Create a config.php file and setup VIT 
@@ -201,16 +202,6 @@ index.vit
 ```
 {{#include header,nav}} //Each file must be seperated with a comma ','
 ```
-
-## Authors
-
-
-|Authors       | Contact           |
-| ------------- |:-------------:| 
-| Dammy      | gdevstorm@gmail.com |
-| Tunerobrainz      | 2nerobrainz@gmail.com     | 
-    
-
 
 ## LICENCE
 
