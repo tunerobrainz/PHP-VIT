@@ -19,7 +19,7 @@ You can freely contribute with us on this project as it is open source, you can 
 ## Requirements, Installation, Configuration & Setup:
 
 
-You need a working server with PHP 7.0+ configured, if you don't have this, [CLICK HERE.](http://www.apachefriends.org/en/xampp.html)) And follow the steps for the necessary installation on your machine.
+You need a working server with PHP 7.0+ configured, if you don't have this, [CLICK HERE.](http://www.apachefriends.org/en/xampp.html) And follow the steps for the necessary installation on your machine.
 
 
 Create a config.php file and setup VIT 
