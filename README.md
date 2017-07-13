@@ -1,13 +1,19 @@
 # PHP-VIT
-Minimal PHP template engine.
+A Minimal PHP template engine. 13 JULY 2017.
 
-** VIT ** let's you seperate your frontend code from your backend code.
+** VIT ** let's you seperate your frontend code from your backend code. Saving you from all the hassles of writing PHP code alongside HTML codes. VIT features a very simple syntax that looks somewhat similar to JSON: the _curly braces_. Example: ` <title>{{ title }}</title>`.
 
 It's basic, simple and easy to use.
 
-Installation, Configuration & Setup:
+## Help
 
-Create a config.php file and setup VIT
+We've set up a community [HERE](http://www.gdevit.com/f52/phpvit) where you can ask questions and get quick solutions to any problem you encounter using VIT, it'll be easier if our community is used instead to report bugs or make feature requests as we intend to build a strong community relationship amongst ourselves. The community isn't a last resort, so you can still check the Wikis for help or contact us [Dammy]mailto:gdevstorm@gmail.com / [Tunerobrainz]mailto:tunerobrainz@gmail.com. 
+
+
+## Installation, Configuration & Setup:
+
+Create a config.php file and setup VIT (Assuming you have a working server, if you don't, [GO HERE.](http://www.apachefriends.org/en/xampp.html))
+
 
 ```php
 require_once __DIR__.'/VIT/VITAutoload.php';
@@ -55,7 +61,7 @@ In '/path/to/template' directory, create 'index.vit'
         <title>{{ title }}</title>
     </head>
     <body>
-        Hello!!!
+        Hello!!! Welcome to VIT!
     </body>
 </html>
 ```
@@ -183,6 +189,31 @@ Now let's include the header and nav files in the index
 
 index.vit
 ```
-{{#include header,nav}}
+{{#include header,nav}} //Each file must be seperated with a comma ','
 ```
 
+##LICENCE
+
+**PHP-VIT** is free and unencumbered TEMPLATE ENGINE released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute it, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+In jurisdictions that recognize copyright laws, we dedicate this code and all copyright interest
+to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+codes under copyright law.
+
+THE CODES IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL WE BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE CODES OR THE USE OR
+OTHER DEALINGS WITH THIS CODE.
+
+Thanks. With Love in our hearts...
